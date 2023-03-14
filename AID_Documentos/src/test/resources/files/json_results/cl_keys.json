@@ -1,0 +1,17 @@
+{
+    "v1": {
+        "0": "salary_text",
+        "1": "contract_type",
+        "2": "expedition_date",
+        "3": "employee_name",
+        "4": "id",
+        "5": "salary",
+        "6": "salary_type",
+        "7": "job_title",
+        "8": "employer_id",
+        "9": "start_date"
+    },
+    "ff": {
+        "0": "process_error_description"
+    }
+}

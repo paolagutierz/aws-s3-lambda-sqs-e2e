@@ -1,0 +1,334 @@
+{
+    "tif-cc": {
+        "birth_date": {
+            "confidence": "0.9990908861160278",
+            "value": "2000-03-20"
+        },
+        "expedition_date": {
+            "confidence": "0.9991508637155805",
+            "value": "2018-04-19"
+        },
+        "id_type": {
+            "confidence": "1",
+            "value": "CC"
+        },
+        "id": {
+            "confidence": "0.9992682602670457",
+            "value": "1000000985"
+        },
+        "height": {
+            "confidence": "0.9989526569843292",
+            "value": "1.80"
+        },
+        "sex": {
+            "confidence": "0.9982047080993652",
+            "value": "M"
+        },
+        "last_name": {
+            "confidence": "0.9989532381296158",
+            "value": "ROA TOVAR"
+        },
+        "birth_place": {
+            "confidence": "0.9991100596057044",
+            "value": "BOGOTA DC CUNDINAMARCA"
+        },
+        "rh": {
+            "confidence": "0.9987897276878357",
+            "value": "A+"
+        },
+        "name": {
+            "confidence": "0.998419314622879",
+            "value": "JORGE LUIS"
+        },
+        "expedition_place": {
+            "confidence": "0.9982906803488731",
+            "value": "BOGOTA DC"
+        }
+    },
+    "pdf-co": {
+        "birth_date": {
+            "confidence": "0.9990043725286212",
+            "value": "2004-01-02"
+        },
+        "expedition_date": {
+            "confidence": "0.9982396438717842",
+            "value": "2022-01-04"
+        },
+        "id_type": {
+            "confidence": "1",
+            "value": "CO"
+        },
+        "id": {
+            "confidence": "0.9993139938874678",
+            "value": "1070384199"
+        },
+        "sex": {
+            "confidence": "0.9979598522186279",
+            "value": "M"
+        },
+        "last_name": {
+            "confidence": "0.9984113723039627",
+            "value": "BUITRAGO BELTRAN"
+        },
+        "birth_place": {
+            "confidence": "0.9982863565286",
+            "value": "FACATATIVA CUNDINAMARCA"
+        },
+        "preparation_city": {
+            "confidence": "0.996461736659209",
+            "value": "FACATATIVA FACATATIVA"
+        },
+        "name": {
+            "confidence": "0.9968079626560211",
+            "value": "LUIS FERNANDO"
+        }
+    },
+    "png-ce": {
+        "birth_date": {
+            "confidence": "0.9989628536360604",
+            "value": "1975-10-15"
+        },
+        "expiration_date": {
+            "confidence": "0.9978046757834298",
+            "value": "2017-12-26"
+        },
+        "expedition_date": {
+            "confidence": "0.9989325148718697",
+            "value": "2016-12-27"
+        },
+        "id_type": {
+            "confidence": "1",
+            "value": "CE"
+        },
+        "id": {
+            "confidence": "0.9979029655456543",
+            "value": "657053"
+        },
+        "sex": {
+            "confidence": "0.9966206550598145",
+            "value": "M"
+        },
+        "last_name": {
+            "confidence": "0.9987301081418991",
+            "value": "SANCHEZ GAMBOA"
+        },
+        "migration_status": {
+            "confidence": "0.9960302114486694",
+            "value": "TEMPORAL"
+        },
+        "nationality": {
+            "confidence": "0.9960985779762268",
+            "value": "VEN"
+        },
+        "rh": {
+            "confidence": "0.9905191659927368",
+            "value": "A-"
+        },
+        "name": {
+            "confidence": "0.996374249458313",
+            "value": "RICARDO"
+        }
+    },
+    "png-ti": {
+        "birth_date": {
+            "confidence": "0.9991526263100761",
+            "value": "2004-04-25"
+        },
+        "expiration_date": {
+            "confidence": "0.9982066750526428",
+            "value": "2022-04-25"
+        },
+        "secondary_id": {
+            "confidence": "0.9991337656974792",
+            "value": "1018223735"
+        },
+        "expedition_date": {
+            "confidence": "0.9991359114646912",
+            "value": "2020-02-10"
+        },
+        "id_type": {
+            "confidence": "1",
+            "value": "TI"
+        },
+        "id": {
+            "confidence": "0.9993007249302335",
+            "value": "1018223735"
+        },
+        "sex": {
+            "confidence": "0.9983630180358887",
+            "value": "M"
+        },
+        "secondary_sex": {
+            "confidence": "0.9981343746185303",
+            "value": "M"
+        },
+        "last_name": {
+            "confidence": "0.9987663477659225",
+            "value": "OCHOA OCHOA"
+        },
+        "birth_place": {
+            "confidence": "0.9990765353043873",
+            "value": "MEDELLIN ANTIOQUIA"
+        },
+        "rh": {
+            "confidence": "0.9987802803516388",
+            "value": "O+"
+        },
+        "name": {
+            "confidence": "0.9984804540872574",
+            "value": "SEBASTIAN CAMILO"
+        },
+        "expedition_place": {
+            "confidence": "0.9968357086181641",
+            "value": "MEDELLIN"
+        }
+    },
+    "pdf-ncc": {
+        "birth_date": {
+            "confidence": "0.8901928067207336",
+            "value": "1993-02-03"
+        },
+        "secondary_nationality": {
+            "confidence": "1",
+            "value": "COL"
+        },
+        "expiration_date": {
+            "confidence": "0.7263471260666847",
+            "value": "2032-04-28"
+        },
+        "secondary_name": {
+            "confidence": "0.9959795291607196",
+            "value": "MIGUEL ANGEL"
+        },
+        "secondary_id": {
+            "confidence": "0.9978103574953581",
+            "value": "1093222199"
+        },
+        "expedition_date": {
+            "confidence": "0.8372118224700291",
+            "value": "2011-03-08"
+        },
+        "id_type": {
+            "confidence": "1",
+            "value": "NCC"
+        },
+        "id": {
+            "confidence": "0.9993221163749695",
+            "value": "1093222199"
+        },
+        "height": {
+            "confidence": "0.9711983352899551",
+            "value": "1.67"
+        },
+        "sex": {
+            "confidence": "0.9923592209815979",
+            "value": "M"
+        },
+        "secondary_sex": {
+            "confidence": "0.9978103574953581",
+            "value": "M"
+        },
+        "last_name": {
+            "confidence": "0.9986636638641357",
+            "value": "CASTRO PAJON"
+        },
+        "birth_place": {
+            "confidence": "0.9974896252155304",
+            "value": "PEREIRA RISARALDA"
+        },
+        "nationality": {
+            "confidence": "0.7867380976676941",
+            "value": "COL"
+        },
+        "rh": {
+            "confidence": "0.9885814487934113",
+            "value": "O+"
+        },
+        "name": {
+            "confidence": "0.9944519102573395",
+            "value": "MIGUEL ANGEL"
+        },
+        "expedition_place": {
+            "confidence": "0.965491771697998",
+            "value": "SANTA ROSA DE CABAL"
+        }
+    },
+    "tif-ppt": {
+        "secondary_last_name": {
+            "confidence": "0.995633934934934",
+            "value": "FERNANDEZ BENCOMO"
+        },
+        "birth_date": {
+            "confidence": "0.9984565121786935",
+            "value": "1975-09-02"
+        },
+        "secondary_nationality": {
+            "confidence": "0.9976884807859149",
+            "value": "VEN"
+        },
+        "expiration_date": {
+            "confidence": "0.9960061013698578",
+            "value": "2031-05-30"
+        },
+        "secondary_name": {
+            "confidence": "0.9959795291607196",
+            "value": "MARISELA DE"
+        },
+        "national_identity_document": {
+            "confidence": "0.9731899574398994",
+            "value": "14736769"
+        },
+        "secondary_id": {
+            "confidence": "0.9345920814408196",
+            "value": "5190132"
+        },
+        "expedition_date": {
+            "confidence": "0.9988452962466648",
+            "value": "2022-05-24"
+        },
+        "id_type": {
+            "confidence": "1",
+            "value": "PPT"
+        },
+        "id": {
+            "confidence": "0.9989702701568604",
+            "value": "5190132"
+        },
+        "sex": {
+            "confidence": "0.9970062375068665",
+            "value": "F"
+        },
+        "secondary_sex": {
+            "confidence": "0.9976884807859149",
+            "value": "F"
+        },
+        "last_name": {
+            "confidence": "0.9986411730448406",
+            "value": "FERNANDEZ BENCOMO"
+        },
+        "secondary_barcode_number": {
+            "confidence": "0.9976884807859149",
+            "value": "E0673288"
+        },
+        "nationality": {
+            "confidence": "0.9933597445487976",
+            "value": "VEN"
+        },
+        "name": {
+            "confidence": "0.9976194351911545",
+            "value": "MARISELA DEL CARMEN"
+        },
+        "expedition_place": {
+            "confidence": "0.9981983751058578",
+            "value": "BOGOTA DC"
+        },
+        "secondary_expiration_date": {
+            "confidence": "0.9976884807859149",
+            "value": "31-05-30"
+        }
+    },
+    "png-cc-flujo-fallido": {
+        "business_exception_code": "500",
+        "business_exception_message": "Fallo la validacion del archivo adjunto. Esto puede deberse a que no es un documento de identificacion valido (Cedula de Ciudadania, Cedula de Extranjeria, Tarjeta de Identidad, Contrasena o Permiso de Proteccion Temporal), la calidad es muy baja, se encuentra incompleto o tiene documentos adicionales diferentes a documentos de identidad."
+    }
+}

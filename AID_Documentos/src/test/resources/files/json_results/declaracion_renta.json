@@ -1,0 +1,1027 @@
+{
+    "2019-110-pdf": {
+        "costos_ganan_ocas": {
+            "confidence": "0.966",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.962",
+            "value": "67425000"
+        },
+        "numero_formulario": {
+            "confidence": "0.988",
+            "value": "1234567891011"
+        },
+        "actividad_economica": {
+            "confidence": "0.996",
+            "value": "4741"
+        },
+        "ingr_ganan_ocas": {
+            "confidence": "0.983",
+            "value": "0"
+        },
+        "id": {
+            "confidence": "0.959",
+            "value": "123456789"
+        },
+        "razon_social": {
+            "confidence": "0.968",
+            "value": "RAZON SOCIAL FALSA SAS"
+        },
+        "tipo_formulario": {
+            "confidence": "0.993",
+            "value": "110"
+        },
+        "pasivos": {
+            "confidence": "0.962",
+            "value": "644966000"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.945",
+            "value": "267234000"
+        },
+        "ano": {
+            "confidence": "0.988",
+            "value": "2019"
+        },
+        "ingr_brutos_act_ord": {
+            "confidence": "0.882",
+            "value": "3692879000"
+        },
+        "tot_ingr_brutos": {
+            "confidence": "0.935",
+            "value": "3763142000"
+        }
+    },
+    "2019-210-png": {
+        "costos_ganan_ocas": {
+            "confidence": "0.872",
+            "value": "30800000"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.979",
+            "value": "41000000"
+        },
+        "numero_formulario": {
+            "confidence": "0.990",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.989",
+            "value": "0010"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.979",
+            "value": "547000"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.984",
+            "value": "74932000"
+        },
+        "primer_apellido": {
+            "confidence": "0.996",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.993",
+            "value": "PEREZ"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.978",
+            "value": "30078000"
+        },
+        "id": {
+            "confidence": "0.979",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.997",
+            "value": "210"
+        },
+        "otros_nombres": {
+            "confidence": "0.991",
+            "value": "CLIMACO"
+        },
+        "primer_nombre": {
+            "confidence": "0.996",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.968",
+            "value": "602152000"
+        },
+        "ano": {
+            "confidence": "0.998",
+            "value": "2019"
+        },
+        "deudas": {
+            "confidence": "0.977",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.985",
+            "value": "0"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.993",
+            "value": "0"
+        }
+    },
+    "2019-110-gif": {
+        "costos_ganan_ocas": {
+            "confidence": "0.966",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.956",
+            "value": "67425000"
+        },
+        "numero_formulario": {
+            "confidence": "0.988",
+            "value": "1234567891011"
+        },
+        "actividad_economica": {
+            "confidence": "0.995",
+            "value": "4741"
+        },
+        "ingr_ganan_ocas": {
+            "confidence": "0.945",
+            "value": "0"
+        },
+        "id": {
+            "confidence": "0.958",
+            "value": "123456789"
+        },
+        "razon_social": {
+            "confidence": "0.978",
+            "value": "RAZON SOCIAL FALSA SAS"
+        },
+        "tipo_formulario": {
+            "confidence": "0.994",
+            "value": "110"
+        },
+        "pasivos": {
+            "confidence": "0.950",
+            "value": "644966000"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.967",
+            "value": "267234000"
+        },
+        "ano": {
+            "confidence": "0.994",
+            "value": "2019"
+        },
+        "ingr_brutos_act_ord": {
+            "confidence": "0.832",
+            "value": "3692879000"
+        },
+        "tot_ingr_brutos": {
+            "confidence": "0.926",
+            "value": "3763142000"
+        }
+    },
+    "2019-210-png-scan": {
+        "costos_ganan_ocas": {
+            "confidence": "0.947",
+            "value": "0"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.807",
+            "value": "0"
+        },
+        "numero_formulario": {
+            "confidence": "0.990",
+            "value": "1234567891011"
+        },
+        "actividad_economica": {
+            "confidence": "0.997",
+            "value": "4663"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.878",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.985",
+            "value": "23291000"
+        },
+        "primer_apellido": {
+            "confidence": "0.997",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.994",
+            "value": "PEREZ"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.00",
+            "value": ""
+        },
+        "id": {
+            "confidence": "0.938",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.993",
+            "value": "210"
+        },
+        "otros_nombres": {
+            "confidence": "0.424",
+            "value": "CLIMACO"
+        },
+        "primer_nombre": {
+            "confidence": "0.996",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.982",
+            "value": "1048076000"
+        },
+        "ano": {
+            "confidence": "0.994",
+            "value": "2019"
+        },
+        "deudas": {
+            "confidence": "0.996",
+            "value": "32982000"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.823",
+            "value": "52014900"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.939",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.947",
+            "value": "0"
+        }
+    },
+    "2019-210-tif": {
+        "costos_ganan_ocas": {
+            "confidence": "0.872",
+            "value": "30800000"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.979",
+            "value": "41000000"
+        },
+        "numero_formulario": {
+            "confidence": "0.990",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.989",
+            "value": "0010"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.979",
+            "value": "547000"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.984",
+            "value": "74932000"
+        },
+        "primer_apellido": {
+            "confidence": "0.996",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.993",
+            "value": "PEREZ"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.978",
+            "value": "30078000"
+        },
+        "id": {
+            "confidence": "0.979",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.997",
+            "value": "210"
+        },
+        "otros_nombres": {
+            "confidence": "0.991",
+            "value": "CLIMACO"
+        },
+        "primer_nombre": {
+            "confidence": "0.996",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.968",
+            "value": "602152000"
+        },
+        "ano": {
+            "confidence": "0.998",
+            "value": "2019"
+        },
+        "deudas": {
+            "confidence": "0.977",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.985",
+            "value": "0"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.993",
+            "value": "0"
+        }
+    },
+    "2020-110-png": {
+        "tot_saldo_pagar": {
+            "confidence": "0.976",
+            "value": "78572000"
+        },
+        "numero_formulario": {
+            "confidence": "0.995",
+            "value": "12345678910112"
+        },
+        "tot_ingr_brutos": {
+            "confidence": "0.984",
+            "value": "64708832000"
+        },
+        "actividad_economica": {
+            "confidence": "0.991",
+            "value": "4711"
+        },
+        "id": {
+            "confidence": "0.940",
+            "value": "123456789"
+        },
+        "razon_social": {
+            "confidence": "0.934",
+            "value": "RAZON SOCIAL FALSA SAS"
+        },
+        "tipo_formulario": {
+            "confidence": "0.996",
+            "value": "110"
+        },
+        "pasivos": {
+            "confidence": "0.972",
+            "value": "10790280000"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.992",
+            "value": "35858425000"
+        },
+        "ano": {
+            "confidence": "0.983",
+            "value": "2020"
+        },
+        "ingr_brutos_act_ord": {
+            "confidence": "0.965",
+            "value": "64028766000"
+        },
+        "ingr_ganan_ocas": {
+            "confidence": "0.977",
+            "value": "0"
+        },
+        "costos_ganan_ocas": {
+            "confidence": "0.983",
+            "value": "0"
+        }
+    },
+    "2020-110-tif": {
+        "tot_saldo_pagar": {
+            "confidence": "0.976",
+            "value": "78572000"
+        },
+        "numero_formulario": {
+            "confidence": "0.995",
+            "value": "12345678910112"
+        },
+        "tot_ingr_brutos": {
+            "confidence": "0.984",
+            "value": "64708832000"
+        },
+        "actividad_economica": {
+            "confidence": "0.991",
+            "value": "4711"
+        },
+        "id": {
+            "confidence": "0.940",
+            "value": "123456789"
+        },
+        "razon_social": {
+            "confidence": "0.934",
+            "value": "RAZON SOCIAL FALSA SAS"
+        },
+        "tipo_formulario": {
+            "confidence": "0.996",
+            "value": "110"
+        },
+        "pasivos": {
+            "confidence": "0.972",
+            "value": "10790280000"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.992",
+            "value": "35858425000"
+        },
+        "ano": {
+            "confidence": "0.983",
+            "value": "2020"
+        },
+        "ingr_brutos_act_ord": {
+            "confidence": "0.965",
+            "value": "64028766000"
+        },
+        "ingr_ganan_ocas": {
+            "confidence": "0.977",
+            "value": "0"
+        },
+        "costos_ganan_ocas": {
+            "confidence": "0.983",
+            "value": "0"
+        }
+    },
+    "2020-210-gif": {
+        "tot_saldo_pagar": {
+            "confidence": "0.986",
+            "value": "4919000"
+        },
+        "numero_formulario": {
+            "confidence": "0.994",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.982",
+            "value": "0090"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.972",
+            "value": "30597000"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.980",
+            "value": "292256000"
+        },
+        "primer_apellido": {
+            "confidence": "0.997",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.994",
+            "value": "PEREZ"
+        },
+        "id": {
+            "confidence": "0.974",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.995",
+            "value": "210"
+        },
+        "deudas": {
+            "confidence": "0.979",
+            "value": "1916415000"
+        },
+        "otros_nombres": {
+            "confidence": "0.944",
+            "value": "DE JESUS"
+        },
+        "primer_nombre": {
+            "confidence": "0.995",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.962",
+            "value": "4188804000"
+        },
+        "ano": {
+            "confidence": "0.983",
+            "value": "2020"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.974",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_por_honorarios_y_comp_de_serv_personales_sujetos_a_costos_y_gastos_y_no_a_las_rentas_exentas_num_10_art_206_et": {
+            "confidence": "0.961",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.955",
+            "value": "0"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.975",
+            "value": "0"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.951",
+            "value": "0"
+        },
+        "costos_ganan_ocas": {
+            "confidence": "0.975",
+            "value": "0"
+        }
+    },
+    "2020-210-pdf": {
+        "tot_saldo_pagar": {
+            "confidence": "0.975",
+            "value": "4919000"
+        },
+        "numero_formulario": {
+            "confidence": "0.990",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.912",
+            "value": "0090"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.972",
+            "value": "30597000"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.949",
+            "value": "292256000"
+        },
+        "primer_apellido": {
+            "confidence": "0.996",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.993",
+            "value": "PEREZ"
+        },
+        "id": {
+            "confidence": "0.976",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.994",
+            "value": "210"
+        },
+        "deudas": {
+            "confidence": "0.978",
+            "value": "1916415000"
+        },
+        "otros_nombres": {
+            "confidence": "0.783",
+            "value": "DE JESUS"
+        },
+        "primer_nombre": {
+            "confidence": "0.996",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.959",
+            "value": "4188804000"
+        },
+        "ano": {
+            "confidence": "0.979",
+            "value": "2020"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.995",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_por_honorarios_y_comp_de_serv_personales_sujetos_a_costos_y_gastos_y_no_a_las_rentas_exentas_num_10_art_206_et": {
+            "confidence": "0.970",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.994",
+            "value": "0"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.994",
+            "value": "0"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.988",
+            "value": "0"
+        },
+        "costos_ganan_ocas": {
+            "confidence": "0.996",
+            "value": "0"
+        }
+    },
+    "2020-210-png-scan": {
+        "tot_saldo_pagar": {
+            "confidence": "0.989",
+            "value": "6717000"
+        },
+        "numero_formulario": {
+            "confidence": "0.987",
+            "value": "1234567891011"
+        },
+        "actividad_economica": {
+            "confidence": "0.984",
+            "value": "0145"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.887",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.995",
+            "value": "3930565000"
+        },
+        "primer_apellido": {
+            "confidence": "0.997",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.991",
+            "value": "PEREZ"
+        },
+        "id": {
+            "confidence": "0.966",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.994",
+            "value": "210"
+        },
+        "deudas": {
+            "confidence": "0.967",
+            "value": "340900000"
+        },
+        "otros_nombres": {
+            "confidence": "0.947",
+            "value": "CLIMACO"
+        },
+        "primer_nombre": {
+            "confidence": "0.996",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.983",
+            "value": "778052000"
+        },
+        "ano": {
+            "confidence": "0.966",
+            "value": "2020"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.985",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_por_honorarios_y_comp_de_serv_personales_sujetos_a_costos_y_gastos_y_no_a_las_rentas_exentas_num_10_art_206_et": {
+            "confidence": "0.980",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.960",
+            "value": "7158000"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.983",
+            "value": "0"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.981",
+            "value": "0"
+        },
+        "costos_ganan_ocas": {
+            "confidence": "0.989",
+            "value": "0"
+        }
+    },
+    "2021-110-pdf": {
+        "costos_ganan_ocas": {
+            "confidence": "0.986",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.995",
+            "value": "0"
+        },
+        "numero_formulario": {
+            "confidence": "0.988",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.987",
+            "value": "4321"
+        },
+        "ingr_ganan_ocas": {
+            "confidence": "0.994",
+            "value": "0"
+        },
+        "id": {
+            "confidence": "0.865",
+            "value": "123456789"
+        },
+        "razon_social": {
+            "confidence": "0.966",
+            "value": "RAZON SOCIAL FALSA SAS"
+        },
+        "tipo_formulario": {
+            "confidence": "0.997",
+            "value": "110"
+        },
+        "pasivos": {
+            "confidence": "0.977",
+            "value": "102969000"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.979",
+            "value": "65030000"
+        },
+        "ano": {
+            "confidence": "0.665",
+            "value": "2021"
+        },
+        "ingr_brutos_act_ord": {
+            "confidence": "0.964",
+            "value": "269840000"
+        },
+        "tot_ingr_brutos": {
+            "confidence": "0.966",
+            "value": "269840000"
+        }
+    },
+    "2021-110-png": {
+        "costos_ganan_ocas": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.995",
+            "value": "0"
+        },
+        "numero_formulario": {
+            "confidence": "0.989",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.989",
+            "value": "4321"
+        },
+        "ingr_ganan_ocas": {
+            "confidence": "0.989",
+            "value": "0"
+        },
+        "id": {
+            "confidence": "0.000",
+            "value": "56789"
+        },
+        "razon_social": {
+            "confidence": "0.947",
+            "value": "RAZON SOCIAL FALSA SAS"
+        },
+        "tipo_formulario": {
+            "confidence": "0.996",
+            "value": "110"
+        },
+        "pasivos": {
+            "confidence": "0.978",
+            "value": "102969000"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.981",
+            "value": "65030000"
+        },
+        "ano": {
+            "confidence": "0.454",
+            "value": "2021"
+        },
+        "ingr_brutos_act_ord": {
+            "confidence": "0.932",
+            "value": "269840000"
+        },
+        "tot_ingr_brutos": {
+            "confidence": "0.970",
+            "value": "269840000"
+        }
+    },
+    "2021-210-jpg": {
+        "costos_ganan_ocas": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.981",
+            "value": "4919000"
+        },
+        "numero_formulario": {
+            "confidence": "0.992",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.994",
+            "value": "0090"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.961",
+            "value": "30597000"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.947",
+            "value": "292256000"
+        },
+        "primer_apellido": {
+            "confidence": "0.998",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.994",
+            "value": "PEREZ"
+        },
+        "id": {
+            "confidence": "0.972",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.991",
+            "value": "210"
+        },
+        "deudas": {
+            "confidence": "0.960",
+            "value": "1916415000"
+        },
+        "otros_nombres": {
+            "confidence": "0.954",
+            "value": "DE JESUS"
+        },
+        "primer_nombre": {
+            "confidence": "0.994",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.916",
+            "value": "4188804000"
+        },
+        "ano": {
+            "confidence": "0.872",
+            "value": "2021"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.989",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_por_honorarios_y_comp_de_serv_personales_sujetos_a_costos_y_gastos_y_no_a_las_rentas_exentas_num_10_art_206_et": {
+            "confidence": "0.981",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.994",
+            "value": "0"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.880",
+            "value": "0"
+        }
+    },
+    "2021-210-tiff": {
+        "costos_ganan_ocas": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.981",
+            "value": "4919000"
+        },
+        "numero_formulario": {
+            "confidence": "0.992",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.994",
+            "value": "0090"
+        },
+        "ingresos_brutos_rentas_de_capital": {
+            "confidence": "0.961",
+            "value": "30597000"
+        },
+        "ingresos_brutos_rentas_no_laborales": {
+            "confidence": "0.947",
+            "value": "292256000"
+        },
+        "primer_apellido": {
+            "confidence": "0.998",
+            "value": "FALSO"
+        },
+        "segundo_apellido": {
+            "confidence": "0.994",
+            "value": "PEREZ"
+        },
+        "id": {
+            "confidence": "0.972",
+            "value": "12345678"
+        },
+        "tipo_formulario": {
+            "confidence": "0.991",
+            "value": "210"
+        },
+        "deudas": {
+            "confidence": "0.960",
+            "value": "1916415000"
+        },
+        "otros_nombres": {
+            "confidence": "0.954",
+            "value": "DE JESUS"
+        },
+        "primer_nombre": {
+            "confidence": "0.994",
+            "value": "PEPE"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.916",
+            "value": "4188804000"
+        },
+        "ano": {
+            "confidence": "0.872",
+            "value": "2021"
+        },
+        "ingresos_brutos_rentas_de_trabajo": {
+            "confidence": "0.989",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_por_honorarios_y_comp_de_serv_personales_sujetos_a_costos_y_gastos_y_no_a_las_rentas_exentas_num_10_art_206_et": {
+            "confidence": "0.981",
+            "value": "0"
+        },
+        "ingresos_brutos_rentas_pensiones_pais_exterior": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "div_part_2016_ant_otros": {
+            "confidence": "0.994",
+            "value": "0"
+        },
+        "ing_ganan_ocas_pais_exterior": {
+            "confidence": "0.880",
+            "value": "0"
+        }
+    },
+    "2021-110-gif": {
+        "costos_ganan_ocas": {
+            "confidence": "0.993",
+            "value": "0"
+        },
+        "tot_saldo_pagar": {
+            "confidence": "0.995",
+            "value": "0"
+        },
+        "numero_formulario": {
+            "confidence": "0.989",
+            "value": "12345678910112"
+        },
+        "actividad_economica": {
+            "confidence": "0.989",
+            "value": "4321"
+        },
+        "ingr_ganan_ocas": {
+            "confidence": "0.989",
+            "value": "0"
+        },
+        "id": {
+            "confidence": "0.000",
+            "value": "56789"
+        },
+        "razon_social": {
+            "confidence": "0.947",
+            "value": "RAZON SOCIAL FALSA SAS"
+        },
+        "tipo_formulario": {
+            "confidence": "0.996",
+            "value": "110"
+        },
+        "pasivos": {
+            "confidence": "0.978",
+            "value": "102969000"
+        },
+        "total_patrimonio_liquido": {
+            "confidence": "0.981",
+            "value": "65030000"
+        },
+        "ano": {
+            "confidence": "0.454",
+            "value": "2021"
+        },
+        "ingr_brutos_act_ord": {
+            "confidence": "0.932",
+            "value": "269840000"
+        },
+        "tot_ingr_brutos": {
+            "confidence": "0.970",
+            "value": "269840000"
+        }
+    },
+    "flujo-fallido-pdf-DR": {
+        "process_error_description":"Failed on [step_synchronous_model] \n                           [main] when calling internal methods. \n                           Error details [Error calling custom lambda] Failed on [step_synchronous_model]\n                        [call_custom_lambda] when invoking custom                         lambda. Error details [Error calling custom lambda] CallCustomLambdaError on nu0087001-aid-r2-<environment>-ConvertToPngGenericLambda: Error executing lambda: Converting to PNG error: Can`t convert file s3://nu0087001-aid-r2-<environment>-s3-raw/caso_uno/declaracion_renta/<FileName> to Png"
+    }
+}
