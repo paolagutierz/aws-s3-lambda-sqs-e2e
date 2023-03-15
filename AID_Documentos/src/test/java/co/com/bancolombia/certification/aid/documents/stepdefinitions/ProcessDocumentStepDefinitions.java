@@ -1,54 +1,43 @@
 package co.com.bancolombia.certification.aid.documents.stepdefinitions;
 
 import co.com.bancolombia.certification.aid.documents.exceptions.AssertionException;
-import co.com.bancolombia.certification.aid.documents.models.ExecutionMemory;
 import co.com.bancolombia.certification.aid.documents.questions.ValidateResult;
-import co.com.bancolombia.certification.aid.documents.tasks.CheckResult;
-import co.com.bancolombia.certification.aid.documents.tasks.SendDocument;
+import co.com.bancolombia.certification.aid.documents.tasks.SendFile;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+
 import java.util.logging.Logger;
-import static org.hamcrest.Matchers.containsString;
+
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static org.hamcrest.Matchers.containsString;
 
 public class ProcessDocumentStepDefinitions {
 
     private static final Logger LOGGER = Logger.getLogger(ProcessDocumentStepDefinitions.class.getName());
-    private static final String USER = "Pepito";
+    private static final String USER = "lucy";
 
     @Before
     public void prepareStage() {
         OnStage.setTheStage(new OnlineCast());
         OnStage.theActorCalled(USER);
-        ExecutionMemory.setWorkflowArgType(System.getProperty("workflow") + " reintentos"); //declaracion_renta carta_laboral
-        ExecutionMemory.setRunTest(false);
     }
 
-    @When("^I send a document type (.*) to process with (.*) model$")
-    public void iSendADocumentTypeToProcessWithModel(String documentType, String workflowType) {
-        LOGGER.info(String.format("--> STEP 1: SEND DOCUMENT[%s] TO BE PROCESSED BY WORKFLOW[%S]", documentType, workflowType));
+    @When("^I send a pdf file (.*)")
+    public void iSendAPdfFile(String file) {
+        LOGGER.info(String.format("--> STEP 1: SEND DOCUMENT[%s] TO S3", file));
         OnStage.theActorInTheSpotlight().attemptsTo(
-                SendDocument.toS3Bucket(documentType, workflowType)
+                SendFile.toS3Bucket(file)
         );
     }
 
-    @When("^I ask for the result of processing$")
-    public void iAskForTheResultOfProcessing() {
-        LOGGER.info("--> STEP 2: ASK FOR RESULTS IN DYNAMODB");
-        OnStage.theActorInTheSpotlight().attemptsTo(
-                CheckResult.ofProccessingInDynamoDB()
-        );
-    }
-
-    @Then("^I should see the extracted information$")
-    public void iShouldSeeTheExtractedInformation() {
-        LOGGER.info("--> STEP 3: VALIDATE RESULTS");
+    @Then("^I should see the message in SQS contains the file name (.*)$")
+    public void iShouldSeeTheMessageInSQSContainsTheFileName(String fileName) {
+        LOGGER.info("--> STEP 2: VALIDATE RESULT IN SQS");
         OnStage.theActorInTheSpotlight()
-                .should(seeThat(ValidateResult.ofTheDocument(), containsString("SUCCESS"))
+                .should(seeThat(ValidateResult.firstSQSMessage(), containsString(fileName))
                         .orComplainWith(AssertionException.class, "The processed result don't match with expected result."));
     }
-
 }

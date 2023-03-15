@@ -38,6 +38,7 @@ dependencies {
     implementation platform('com.amazonaws:aws-java-sdk-bom:1.12.249')
     implementation 'com.amazonaws:aws-java-sdk-s3'
     implementation 'com.amazonaws:aws-java-sdk-lambda'
+    implementation 'com.amazonaws:aws-java-sdk-sqs'
 
     implementation "org.json:json:20220320"
 }
