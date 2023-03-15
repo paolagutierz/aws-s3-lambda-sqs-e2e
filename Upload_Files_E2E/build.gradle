@@ -1,0 +1,58 @@
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+group 'co.com.bancolombia.certification.upload_files'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "net.serenity-bdd:serenity-gradle-plugin:2.0.60"
+    }
+}
+
+ext{
+    serenityVersion = '3.2.5'
+    serenityCucumberVersion = '3.2.5'
+    log4jVersion = '2.17.2'
+}
+
+dependencies {
+    testImplementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
+    testImplementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityCucumberVersion"
+    implementation "org.apache.logging.log4j:log4j-api:$rootProject.ext.log4jVersion"
+    implementation "org.apache.logging.log4j:log4j-core:$rootProject.ext.log4jVersion"
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.slf4j:slf4j-simple:1.7.36'
+    implementation 'com.opencsv:opencsv:5.5'
+
+    implementation platform('com.amazonaws:aws-java-sdk-bom:1.12.249')
+    implementation 'com.amazonaws:aws-java-sdk-s3'
+    implementation 'com.amazonaws:aws-java-sdk-lambda'
+    implementation 'com.amazonaws:aws-java-sdk-sqs'
+
+    implementation "org.json:json:20220320"
+}
+
+tasks.withType(Test) {
+    systemProperties = System.properties
+    systemProperty "file.encoding", "UTF-8"
+    systemProperty 'environment', System.getProperty('environment')
+    systemProperty 'workflow', System.getProperty('workflow')
+    systemProperty 'attempts', System.getProperty('attempts')
+
+    systemProperty 'aws.accessKeyId', System.properties.getProperty('aws.accessKeyId')
+    systemProperty 'aws.secretKey', System.properties.getProperty('aws.secretKey')
+    systemProperty 'aws.sessionToken', System.properties.getProperty('aws.sessionToken')
+}
+
+gradle.startParameter.continueOnFailure = true
