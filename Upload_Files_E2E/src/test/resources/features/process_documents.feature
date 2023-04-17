@@ -1,7 +1,6 @@
-Feature: Process Files
-  I want to send a pdf file to process
-  So I can validate the in SQS if the file was uploaded successfully
+Feature: Resize jpg image
 
-  Scenario: Send file liquidacion.pdf to S3 bucket
-    When I send a pdf file liquidacion.pdf
-    Then I should see the message in SQS contains the file name liquidacion
+  Scenario: Upload image exampleImage.jpg to S3 bucket
+    When I upload the image exampleImage.jpg to s3 bucket
+    And Download the resize image from the destination bucket
+    Then I should see that the downloaded image has a smaller size than the uploaded image

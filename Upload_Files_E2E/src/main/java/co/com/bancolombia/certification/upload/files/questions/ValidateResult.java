@@ -1,19 +1,35 @@
 package co.com.bancolombia.certification.upload.files.questions;
 
-import co.com.bancolombia.certification.upload.files.utils.aws.SQSExecutor;
+import co.com.bancolombia.certification.upload.files.models.ExecutionMemory;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.thucydides.core.annotations.Step;
 
-public class ValidateResult implements Question<String> {
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+
+public class ValidateResult implements Question<Boolean> {
 
     @Override
-    @Step("{0} validate result of the processed document")
-    public String answeredBy(Actor actor) {
-        return SQSExecutor.readFirstMessageFromQueue();
+    @Step("{0} validate image was resize")
+    public Boolean answeredBy(Actor actor) {
+        byte[] thumbnail = ExecutionMemory.getThumbnail();
+
+        BufferedImage bufferedImage;
+        try {
+            bufferedImage = ImageIO.read(new ByteArrayInputStream(thumbnail));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        int imageWidth= bufferedImage.getWidth();
+
+        return imageWidth==480;
     }
 
-    public static ValidateResult firstSQSMessage() {
+    public static ValidateResult imageWasResize() {
         return new ValidateResult();
     }
 }

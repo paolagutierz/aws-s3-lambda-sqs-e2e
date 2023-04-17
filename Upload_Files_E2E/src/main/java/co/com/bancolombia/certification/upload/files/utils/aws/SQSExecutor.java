@@ -7,7 +7,7 @@ import java.util.List;
 
 public class SQSExecutor {
 
-    final static String QUEUE_NAME = "S3-Lambda-SQS";
+    final static String QUEUE_NAME = "sqs-e2e-example";
 
     public static String readFirstMessageFromQueue() {
         AmazonSQS amazonSQS = SQSClient.getSQSClient();

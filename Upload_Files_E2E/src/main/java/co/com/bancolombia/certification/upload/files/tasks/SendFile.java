@@ -17,11 +17,11 @@ public class SendFile implements Task {
     }
 
     @Override
-    @Step("{0} send a file to the s3-bucket")
+    @Step("{1} send a file to the s3-bucket")
     public <T extends Actor> void performAs(T actor) {
-        String temporalFile = FileUtils.createLocalTemporalFile(file);
-        S3Executor.putFileInBucket(temporalFile);
-        FileUtils.deleteLocalTemporalFile(temporalFile);
+        FileUtils.createLocalTemporalFile(file);
+        S3Executor.putFileInBucket();
+        FileUtils.deleteLocalTemporalFile();
     }
 
     public static SendFile toS3Bucket(String file) {

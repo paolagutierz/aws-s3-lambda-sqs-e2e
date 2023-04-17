@@ -1,7 +1,9 @@
 package co.com.bancolombia.certification.upload.files.utils;
 
 import co.com.bancolombia.certification.upload.files.exceptions.GeneralException;
+import co.com.bancolombia.certification.upload.files.models.ExecutionMemory;
 
+import java.io.*;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -29,6 +31,7 @@ public class FileUtils {
         try {
             Files.copy(originPath, targetPath);
             LOGGER.info("--> Generated file - path: " + targetPath);
+            ExecutionMemory.setFileName(newName);
         } catch (Exception e) {
             new GeneralException("Error on generateNewFile [oldName:" + originPath
                     + "][newName:" + targetPath + "]", e);
@@ -36,7 +39,8 @@ public class FileUtils {
         return newName;
     }
 
-    public static void deleteLocalTemporalFile(String temporalFile) {
+    public static void deleteLocalTemporalFile() {
+        String temporalFile = ExecutionMemory.getFileName();
         try {
             Path path = FileSystems.getDefault().getPath("src/test/resources/files/" + temporalFile);
             Files.delete(path);
@@ -44,4 +48,45 @@ public class FileUtils {
             new GeneralException("Error deleting file " + temporalFile);
         }
     }
+
+    public static byte[] getObjectFile(String filePath) {
+
+        FileInputStream fileInputStream = null;
+        byte[] bytesArray = null;
+
+        try {
+            File file = new File(filePath);
+            bytesArray = new byte[(int) file.length()];
+            fileInputStream = new FileInputStream(file);
+            fileInputStream.read(bytesArray);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fileInputStream != null) {
+                try {
+                    fileInputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        return bytesArray;
+    }
+
+    public static void writeLocalFile (String path, byte[] data){
+        File myFile = new File(path );
+        OutputStream os = null;
+
+        try {
+            os = new FileOutputStream(myFile);
+            os.write(data);
+            System.out.println("Successfully obtained bytes from an S3 object");
+            os.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
