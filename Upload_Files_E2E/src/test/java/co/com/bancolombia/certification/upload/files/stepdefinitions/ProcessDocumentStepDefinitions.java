@@ -2,7 +2,8 @@ package co.com.bancolombia.certification.upload.files.stepdefinitions;
 
 import co.com.bancolombia.certification.upload.files.exceptions.AssertionException;
 import co.com.bancolombia.certification.upload.files.models.ExecutionMemory;
-import co.com.bancolombia.certification.upload.files.questions.ValidateResult;
+import co.com.bancolombia.certification.upload.files.questions.ValidateResultS3;
+import co.com.bancolombia.certification.upload.files.questions.ValidateResultSqs;
 import co.com.bancolombia.certification.upload.files.tasks.DownloadFile;
 import co.com.bancolombia.certification.upload.files.tasks.SendFile;
 import io.cucumber.java.Before;
@@ -14,7 +15,6 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 
 import java.util.logging.Logger;
 
-import static co.com.bancolombia.certification.upload.files.tasks.DownloadFile.fromS3Bucket;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.*;
 
@@ -49,7 +49,16 @@ public class ProcessDocumentStepDefinitions {
     public void iShouldSeeTheResizeImage() {
         LOGGER.info("--> STEP 3: VALIDATE IMAGE WAS RESIZE");
         OnStage.theActorInTheSpotlight()
-                .should(seeThat(ValidateResult.imageWasResize(), is(true))
+                .should(seeThat(ValidateResultS3.imageWasResize(), is(true))
+                        .orComplainWith(AssertionException.class, "The processed result don't match with expected result."));
+    }
+
+    @And("^I should see the message in SQS contains the image name$")
+    public void iShouldSeeTheMessageInSQSContainsTheImageName() {
+        LOGGER.info("--> STEP 4: VALIDATE IMAGE NAME IN DESTINATION QUEUE");
+        String filename= ExecutionMemory.getFileName();
+        OnStage.theActorInTheSpotlight()
+                .should(seeThat(ValidateResultSqs.firstSQSMessage(), containsString(filename))
                         .orComplainWith(AssertionException.class, "The processed result don't match with expected result."));
     }
 }

@@ -36,12 +36,11 @@ dependencies {
     implementation 'com.opencsv:opencsv:5.5'
 
     implementation platform('com.amazonaws:aws-java-sdk-bom:1.12.249')
-    implementation 'com.amazonaws:aws-java-sdk-s3'
     implementation 'com.amazonaws:aws-java-sdk-lambda'
-    implementation 'com.amazonaws:aws-java-sdk-sqs'
 
     // https://mvnrepository.com/artifact/software.amazon.awssdk/protocol-core
     implementation group: 'software.amazon.awssdk', name: 's3', version: '2.20.47'
+    implementation group: 'software.amazon.awssdk', name: 'sqs', version: '2.20.47'
 
 
     implementation "org.json:json:20220320"

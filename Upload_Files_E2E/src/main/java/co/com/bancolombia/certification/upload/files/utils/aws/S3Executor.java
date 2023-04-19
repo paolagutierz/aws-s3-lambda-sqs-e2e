@@ -3,6 +3,7 @@ package co.com.bancolombia.certification.upload.files.utils.aws;
 import co.com.bancolombia.certification.upload.files.exceptions.S3ServiceException;
 import co.com.bancolombia.certification.upload.files.models.ExecutionMemory;
 import software.amazon.awssdk.core.ResponseBytes;
+import software.amazon.awssdk.core.exception.SdkException;
 import software.amazon.awssdk.core.sync.RequestBody;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.*;
@@ -35,8 +36,8 @@ public class S3Executor {
             ExecutionMemory.setImage(image);
             return response.eTag();
 
-        } catch (S3ServiceException e) {
-            throw new S3ServiceException("Error putFileInBucket: ", e);
+        } catch (SdkException e) {
+            throw new S3ServiceException(e.getMessage(),e);
         }
     }
 
@@ -58,9 +59,8 @@ public class S3Executor {
             writeLocalFile(filePath, data);
             ExecutionMemory.setThumbnail(data);
 
-        } catch (S3Exception e) {
-            System.err.println(e.awsErrorDetails().errorMessage());
-            System.exit(1);
+        } catch (SdkException e) {
+            throw new S3ServiceException(e.getMessage(),e);
         }
     }
 }

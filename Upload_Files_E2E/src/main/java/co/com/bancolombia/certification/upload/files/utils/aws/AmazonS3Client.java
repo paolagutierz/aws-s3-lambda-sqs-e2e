@@ -1,6 +1,8 @@
 package co.com.bancolombia.certification.upload.files.utils.aws;
 
+import co.com.bancolombia.certification.upload.files.exceptions.S3ServiceException;
 import com.amazonaws.AmazonServiceException;
+import software.amazon.awssdk.core.exception.SdkException;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
@@ -16,8 +18,8 @@ public class AmazonS3Client {
                     .credentialsProvider(credentialsProvider)
                     .build();
             return s3;
-        } catch (AmazonServiceException e) {
-            throw new AmazonServiceException("Client error [getS3Client]: " + e);
+        } catch (SdkException e) {
+            throw new S3ServiceException("Client error [getS3Client]: " + e.getMessage(),e);
         }
     }
 

@@ -10,7 +10,7 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
-public class ValidateResult implements Question<Boolean> {
+public class ValidateResultS3 implements Question<Boolean> {
 
     @Override
     @Step("{0} validate image was resize")
@@ -29,7 +29,7 @@ public class ValidateResult implements Question<Boolean> {
         return imageWidth==480;
     }
 
-    public static ValidateResult imageWasResize() {
-        return new ValidateResult();
+    public static ValidateResultS3 imageWasResize() {
+        return new ValidateResultS3();
     }
 }

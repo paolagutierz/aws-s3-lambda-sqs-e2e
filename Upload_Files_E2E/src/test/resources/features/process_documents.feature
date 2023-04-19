@@ -4,3 +4,4 @@ Feature: Resize jpg image
     When I upload the image exampleImage.jpg to s3 bucket
     And Download the resize image from the destination bucket
     Then I should see that the downloaded image has a smaller size than the uploaded image
+    And  I should see the message in SQS contains the image name
